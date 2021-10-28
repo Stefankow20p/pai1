@@ -10,5 +10,10 @@
     Podaj imie: <input><br>
     <input type="button"><br>
     <p></p>
+    <script>
+        document.querySelectorAll("input")[1].addEventListener( "onclick", function(){
+            document.querySelectorAll("p")[0].innerHTML="Cześć " + document.querySelectorAll("input")[0].value
+        })
+    </script>
 </body>
 </html>
