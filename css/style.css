@@ -1,3 +1,10 @@
 body{
     background-color: rgb(128, 128, 128);
 }
+input{
+    transition-duration: 0.5s;
+}
+input:hover{
+    transition-duration: 0.5s;
+    transform: scale(120%);
+}
